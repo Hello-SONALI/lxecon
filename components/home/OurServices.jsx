@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 function OurServices() {
   return (
     <>
@@ -33,9 +33,9 @@ function OurServices() {
             objective was to ensure service they provide these people are loyal
             .
           </p>
-          <a href="service-details.html">
+          <Link href="service-details.html">
             Explore Services <i className="las la-long-arrow-alt-right" />
-          </a>
+          </Link>
         </div>
       </div>
       <div
@@ -52,9 +52,9 @@ function OurServices() {
             objective was to ensure service they provide these people are loyal
             .
           </p>
-          <a href="service-details.html">
+          <Link href="service-details.html">
             Explore Services <i className="las la-long-arrow-alt-right" />
-          </a>
+          </Link>
         </div>
       </div>
       <div
@@ -71,9 +71,9 @@ function OurServices() {
             objective was to ensure service they provide these people are loyal
             .
           </p>
-          <a href="service-details.html">
+          <Link href="service-details.html">
             Explore Services <i className="las la-long-arrow-alt-right" />
-          </a>
+          </Link>
         </div>
       </div>
     </div>
@@ -81,9 +81,9 @@ function OurServices() {
       className="mt-40 text-center wow fade-in-bottom"
       data-wow-delay="600ms"
     >
-      <a href="our-services.html" className="default-btn">
+      <Link href="our-services.html" className="default-btn">
         Explore all Services
-      </a>
+      </Link>
     </div>
   </div>
   <div className="bg-half-color">

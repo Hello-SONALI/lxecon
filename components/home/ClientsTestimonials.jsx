@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 function ClientsTestimonials() {
   return (
     <>
@@ -21,7 +21,7 @@ function ClientsTestimonials() {
         className="col-md-3 d-none d-md-block wow fade-in-left"
         data-wow-delay="200ms"
       >
-        <img src="assets/img/testimonial-left-image.png" alt="img" />
+        <Image src="/assets/img/testimonial-left-image.png" alt="img" width={306}  height={526}/>
       </div>
       <div className="col-md-6">
         <div className="testimonial-carousel-wrapper">
@@ -40,7 +40,7 @@ function ClientsTestimonials() {
                   </p>
                   <div className="testi-author">
                     <div className="author-thumb">
-                      <img src="assets/img/comment-1.png" alt="author" />
+                      <Image src="/assets/img/comment-1.png" alt="author"  width={100}  height={100}/>
                     </div>
                     <div className="author-info">
                       <h3>Eredrik Johanson</h3>
@@ -49,52 +49,7 @@ function ClientsTestimonials() {
                   </div>
                 </div>
               </div>
-              <div className="swiper-slide">
-                <div className="testi-item">
-                  <div className="quote-icon">
-                    <i className="las la-quote-right" />
-                  </div>
-                  <p>
-                    Redias a trusted name for providing assistants. Initially
-                    their main objective was to ensure the service they provide
-                    these people are loyal to their industry, experienced and
-                    main top professional. Financial experts support{" "}
-                  </p>
-                  <div className="testi-author">
-                    <div className="author-thumb">
-                      <img src="assets/img/comment-2.png" alt="author" />
-                    </div>
-                    <div className="author-info">
-                      <div className="author-info">
-                        <h3>Félix Lengyel</h3>
-                        <h4>Corporate .INC</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="swiper-slide">
-                <div className="testi-item">
-                  <div className="quote-icon">
-                    <i className="las la-quote-right" />
-                  </div>
-                  <p>
-                    Redias a trusted name for providing assistants. Initially
-                    their main objective was to ensure the service they provide
-                    these people are loyal to their industry, experienced and
-                    main top professional. Financial experts support{" "}
-                  </p>
-                  <div className="testi-author">
-                    <div className="author-thumb">
-                      <img src="assets/img/comment-3.png" alt="author" />
-                    </div>
-                    <div className="author-info">
-                      <h3>Brandon Larned</h3>
-                      <h4>Marketing .INC</h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
           <div className="carousel-pagination" />
@@ -105,7 +60,7 @@ function ClientsTestimonials() {
         className="col-md-3 d-none d-md-block wow fade-in-right"
         data-wow-delay="300ms"
       >
-        <img src="assets/img/testimonial-right-image.png" alt="img" />
+        <Image src="/assets/img/testimonial-right-image.png" alt="img" width={306}  height={526}/>
       </div>
     </div>
   </div>

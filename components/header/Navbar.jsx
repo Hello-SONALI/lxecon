@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-
+import Image from 'next/image'
 function Navbar() {
   return (
     <>
@@ -14,12 +14,12 @@ function Navbar() {
               <div className="topbar-right">
                 <ul>
                   <li>
-                    <a href="mailto:dynamiclayers@gmail.com">
+                    <Link href="mailto:dynamiclayers@gmail.com">
                       dynamiclayers@gmail.com
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">Login</a>
+                    <Link href="#">Login</Link>
                   </li>
                   <li className="topbar-search">
                     <form action="#">
@@ -39,9 +39,9 @@ function Navbar() {
           <div className="container">
             <div className="navigation-inner">
               <div className="site-logo">
-                <a href="index.html">
-                  <img src="assets/img/logo.png" alt="Redias" />
-                </a>
+                <Link href="index.html">
+                  <Image src="/assets/img/logo.png" alt="Redias" width={170} height={51} />
+                </Link>
               </div>
               <nav className="navigation-menu">
                 <ul className="main-menu">
@@ -54,17 +54,17 @@ function Navbar() {
                     
                   </li>
                   <li>
-                    <a href="/services">Services</a>
+                    <Link href="/services">Services</Link>
                     
                   </li>
   
                   <li>
-                    <a href="/pricing">Pricing</a>
+                    <Link href="/pricing">Pricing</Link>
                     
                   </li>
                   
                   <li>
-                    <a href="/contact">Contact</a>
+                    <Link href="/contact">Contact</Link>
                   </li>
                 </ul>
                 <button className="sidebar-trigger">
@@ -83,7 +83,7 @@ function Navbar() {
                 <i className="las la-comments" />
                 <div>
                   Let's Chat
-                  <a href="tel:881900678956">88 1900 6789 56</a>
+                  <Link href="tel:881900678956">88 1900 6789 56</Link>
                 </div>
               </div>
               <div className="mobile-menu-icon">
@@ -103,9 +103,9 @@ function Navbar() {
         </button>
         <div className="sidebox-content">
           <div className="site-logo">
-            <a href="index.html">
-              <img src="assets/img/logo-light.png" alt="logo" />
-            </a>
+            <Link href="index.html">
+              <Image src="/assets/img/logo-light.png" alt="logo"   width={170} height={51}/>
+            </Link>
           </div>
           <p>
             Everything your taxi business needs is already here! redias, a theme made

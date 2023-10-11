@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Image from 'next/image'
+import Link from 'next/link'
 function LatestBlogs() {
   return (
     <>
@@ -22,7 +23,7 @@ function LatestBlogs() {
       >
         <div className="post-card">
           <div className="post-thumb">
-            <img src="assets/img/post-1.jpg" alt="post" />
+            <Image src="assets/img/post-1.jpg" alt="post" />
           </div>
           <div className="post-content-wrap">
             <ul className="post-meta">
@@ -32,22 +33,22 @@ function LatestBlogs() {
               </li>
               <li>
                 <i className="las la-tags" />
-                <a href="#">Design</a>
+                <Link href="#">Design</Link>
               </li>
             </ul>
             <div className="post-content">
               <h3>
-                <a href="blog-details.html" className="hover">
+                <Link href="blog-details.html" className="hover">
                   Start initiating find an startup in days.
-                </a>
+                </Link>
               </h3>
               <p>
                 Financial experts support or help you to to find out which way
                 you can raise your funds more...
               </p>
-              <a href="blog-details.html" className="read-more">
+              <Link href="blog-details.html" className="read-more">
                 Read More
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -58,7 +59,7 @@ function LatestBlogs() {
       >
         <div className="post-card">
           <div className="post-thumb">
-            <img src="assets/img/post-2.jpg" alt="post" />
+            <Image src="assets/img/post-2.jpg" alt="post" />
           </div>
           <div className="post-content-wrap">
             <ul className="post-meta">
@@ -68,22 +69,22 @@ function LatestBlogs() {
               </li>
               <li>
                 <i className="las la-tags" />
-                <a href="#">Branding</a>
+                <Link href="#">Branding</Link>
               </li>
             </ul>
             <div className="post-content">
               <h3>
-                <a href="blog-details.html">
+                <Link href="blog-details.html">
                   Financial experts are support find out.
-                </a>
+                </Link>
               </h3>
               <p>
                 Financial experts support or help you to to find out which way
                 you can raise your funds more...
               </p>
-              <a href="blog-details.html" className="read-more">
+              <Link href="blog-details.html" className="read-more">
                 Read More
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -94,7 +95,7 @@ function LatestBlogs() {
       >
         <div className="post-card">
           <div className="post-thumb">
-            <img src="assets/img/post-3.jpg" alt="post" />
+            <Image src="assets/img/post-3.jpg" alt="post" />
           </div>
           <div className="post-content-wrap">
             <ul className="post-meta">
@@ -104,22 +105,22 @@ function LatestBlogs() {
               </li>
               <li>
                 <i className="las la-tags" />
-                <a href="#">Marketing</a>
+                <Link href="#">Marketing</Link>
               </li>
             </ul>
             <div className="post-content">
               <h3>
-                <a href="blog-details.html">
+                <Link href="blog-details.html">
                   Innovative business all over the world.
-                </a>
+                </Link>
               </h3>
               <p>
                 Financial experts support or help you to to find out which way
                 you can raise your funds more...
               </p>
-              <a href="blog-details.html" className="read-more">
+              <Link href="blog-details.html" className="read-more">
                 Read More
-              </a>
+              </Link>
             </div>
           </div>
         </div>

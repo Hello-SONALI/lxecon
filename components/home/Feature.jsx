@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Image from 'next/image'
+import Link from 'next/link'
 function Feature() {
   return (
     <>
@@ -10,11 +11,13 @@ function Feature() {
       <div className="swiper-wrapper">
         <div className="swiper-slide">
           <div className="slider-img">
-            <img
-              src="assets/img/slider-1.jpg"
+            <Image
+              src="/assets/img/slider-1.jpg"
               alt="img"
               className="kenburns"
               style={{ animationDuration: "12000ms" }}
+              width={1296}
+              height={500}
             />
           </div>
           <div className="slider-content-wrap">
@@ -35,14 +38,14 @@ function Feature() {
                 </div>
               </div>
               <div className="slider-btn">
-                <a
+                <Link
                   href="book-taxi.html"
                   className="default-btn"
                   data-animation="fade-in-bottom"
                   data-delay="0.9s"
                 >
                   Get Free Consulting
-                </a>
+                </Link>
               </div>
             </div>
           </div>

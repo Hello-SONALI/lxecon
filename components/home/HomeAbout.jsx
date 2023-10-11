@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Image from 'next/image'
+import Link from 'next/link'
 function HomeAbout() {
   return (
     <>
@@ -21,7 +22,7 @@ function HomeAbout() {
         data-wow-delay="300ms"
       >
         <div className="about-img img-1">
-          <img src="assets/img/about-1.jpg" alt="img" />
+          <Image src="/assets/img/about-1.jpg" alt="img" width={400} height={500} />
         </div>
       </div>
       <div className="col-md-5 d-flex align-items-center">
@@ -36,9 +37,9 @@ function HomeAbout() {
             Financial experts support or help you to to find out which way you
             can raise your funds more.
           </p>
-          <a href="about.html" className="read-more">
+          <Link href="about.html" className="read-more">
             <i className="las la-arrow-right" />
-          </a>
+          </Link>
           <h4>
             <span>
               A+ Ratting <b>Agency</b>
@@ -48,7 +49,7 @@ function HomeAbout() {
       </div>
       <div className="col-md-3 wow fade-in-bottom" data-wow-delay="400ms">
         <div className="about-img img-2">
-          <img src="assets/img/about-2.jpg" alt="img" />
+          <Image src="/assets/img/about-2.jpg" alt="img" width={600} height={800} />
         </div>
       </div>
     </div>

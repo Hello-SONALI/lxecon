@@ -3,20 +3,19 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   return (
     <Html lang="en">
-      <Head >
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png"/>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="assets/css/animate.min.css"/>
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css"/>
-    <link rel="stylesheet" href="assets/css/line-awesome.min.css"/>
-    <link rel="stylesheet" href="assets/css/redias-icons.css"/>
-    <link rel="stylesheet" href="assets/css/odometer.min.css"/>
-    <link rel="stylesheet" href="assets/css/venobox.min.css"/>
-    <link rel="stylesheet" href="assets/css/keyframe-animation.css"/>
-    <link rel="stylesheet" href="assets/css/swiper.min.css"/>
-    <link rel="stylesheet" href="assets/css/main.css"/>
+      <Head>
+      <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png"/>
 
-
+<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="assets/css/animate.min.css"/>
+<link rel="stylesheet" href="assets/css/fontawesome.min.css"/>
+<link rel="stylesheet" href="assets/css/line-awesome.min.css"/>
+<link rel="stylesheet" href="assets/css/redias-icons.css"/>
+<link rel="stylesheet" href="assets/css/odometer.min.css"/>
+<link rel="stylesheet" href="assets/css/venobox.min.css"/>
+<link rel="stylesheet" href="assets/css/keyframe-animation.css"/>
+<link rel="stylesheet" href="assets/css/swiper.min.css"/>
+<link rel="stylesheet" href="assets/css/main.css"/>
       </Head>
       <body>
         <Main />

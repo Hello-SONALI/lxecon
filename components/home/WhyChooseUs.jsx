@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 function WhyChooseUs() {
   return (
     <>
@@ -95,7 +95,7 @@ function WhyChooseUs() {
       <div className="row skill-section-wrap">
         <div className="col-lg-4">
           <div className="skill-img">
-            <img src="assets/img/skill-img.jpg" alt="img" />
+            <Image src="/assets/img/skill-img.jpg" alt="img" width={450} height={650}/>
           </div>
         </div>
         <div className="col-lg-8">
@@ -162,7 +162,7 @@ function WhyChooseUs() {
                 >
                   <div className="skill-tab-content">
                     <div className="tab-thumb">
-                      <img src="assets/img/tab-img-1.jpg" alt="img" />
+                      <Image src="/assets/img/tab-img-1.jpg" alt="img" width={400} height={400} />
                     </div>
                     <ul className="tab-list">
                       <li>
@@ -207,7 +207,7 @@ function WhyChooseUs() {
                 >
                   <div className="skill-tab-content">
                     <div className="tab-thumb">
-                      <img src="assets/img/tab-img-2.jpg" alt="img" />
+                      <Image src="/assets/img/tab-img-2.jpg" alt="img" width={400} height={400}/>
                     </div>
                     <ul className="tab-list">
                       <li>
@@ -252,7 +252,7 @@ function WhyChooseUs() {
                 >
                   <div className="skill-tab-content">
                     <div className="tab-thumb">
-                      <img src="assets/img/tab-img-3.jpg" alt="img" />
+                      <Image src="/assets/img/tab-img-3.jpg" alt="img" width={400} height={400} />
                     </div>
                     <ul className="tab-list">
                       <li>

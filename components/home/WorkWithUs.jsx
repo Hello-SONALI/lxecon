@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 function WorkWithUs() {
   return (
     <>
@@ -59,12 +59,12 @@ function WorkWithUs() {
         objective was <br /> to ensure the service they provide these people
       </p>
       <div className="btn-group wow fade-in-bottom" data-wow-delay="500ms">
-        <a href="#" className="default-btn">
+        <Link href="#" className="default-btn">
           Get In Touch
-        </a>
-        <a href="#" className="default-btn blue">
+        </Link>
+        <Link href="#" className="default-btn blue">
           Our Services
-        </a>
+        </Link>
       </div>
     </div>
   </div>

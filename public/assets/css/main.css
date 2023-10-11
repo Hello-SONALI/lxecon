@@ -70,6 +70,7 @@ body {
     color: var(--grey-color);
     font-weight: 400;
     letter-spacing: -0.2px;
+
 }
 
 h1,
@@ -137,6 +138,8 @@ textarea:-ms-input-placeholder {
 button {
     border: none;
     background: none;
+
+
 }
 
 /*** Padding Classes ***/
@@ -2567,6 +2570,8 @@ body.loaded {
     font-size: 20px;
     font-weight: 600;
     letter-spacing: -0.5px;
+    
+    
 }
 
 .service-features li p {
